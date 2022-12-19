@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://media.glassdoor.com/sqll/1375928/myglamm-squareLogo-1612962866480.png" type="image/icon type">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+   <div class="overlay1"></div>
+   <div class="Signup">
+    
+        <p>VERIFY YOUR MOBILE NUMBER TO COMPLETE YOUR REGISTRATION</p>
+        
+        <div id="mobile">
+            <h3>Mobile Number</h3>
+        <input type="number" id="number">
+        </div>
+        
+        <div>
+            <h3>Confirm Mobile Number</h3>
+            <input type="number" id="name">
+        </div>
+      
+       
+       
+
+       <button  onclick="signup()" id="verify">VERIFY</button>
+   
+   </div>
+
+
+</body>
+
+<script src="index.js" >
+    
+   
+</script>
+
+<script>
+
+function signup(){
+
+    let mobile = document.getElementById("number").value;
+
+    let name = document.getElementById("name").value;
+
+    if(mobile !== name){
+        alert("Wrong Input")
+    }else{
+        alert("verification completed");
+        window.location.href = "/index.html"
+    }
+    
+
+    
+
+    localStorage.setItem("mobile-no" , mobile)
+    localStorage.setItem("name1" , name)
+    
+    
+    
+}
+
+</script>
+
+
+</html>

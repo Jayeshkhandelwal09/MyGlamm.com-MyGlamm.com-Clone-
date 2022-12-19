@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Bag</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://media.glassdoor.com/sqll/1375928/myglamm-squareLogo-1612962866480.png" type="image/icon type">
+</head>
+<body>
+
+    <div id="cartimg">
+        <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+    </div>
+    
+
+    <h1 id="head">MY BAG</h1>
+    <div id="grand">
+        <h1>GRAND TOTAL: ₹<span id="tp">0</span></h1>
+    </div>
+
+    <div id="cartcontainer">
+
+    </div>
+
+    <div id="checkout">
+        <a href="payment.html"> <button> PROCEED TO CHECKOUT</button></a> 
+    </div>
+    
+    
+</body>
+
+<script>
+
+
+let product = document.getElementById("cartcontainer")
+
+let total = document.getElementById("tp")
+
+let cartdata = JSON.parse(localStorage.getItem("cart"))||[]
+
+
+
+// displayproduct(cartdata)
+
+
+    function displayproduct(){
+        product.innerHTML = null;
+    cartdata.forEach((element , index) => {
+        let cont = document.createElement("div");
+        let image = document.createElement("img");
+        image.setAttribute( "src" , element.image );
+        let name = document.createElement("h3");
+        name.innerText= element.name;
+        let description = document.createElement("p");
+        description.innerText = element.description;
+        let price = document.createElement("h4");
+        price.innerText = element.price;
+        
+        let increment = document.createElement("button");
+        increment.innerText = "+";
+ 
+       
+
+        let quantity = document.createElement("span")
+        quantity.innerText = element.Quantity
+       
+        let decrement = document.createElement("button");
+        decrement.innerText = "-"
+
+       
+
+        
+
+         let remove = document.createElement("button");
+        remove.innerText = "DELETE"
+
+       
+
+        increment.addEventListener("click" , ()=>{
+            element.Quantity++;
+            quantity.innerText = element.Quantity;
+            abc();
+        })
+       
+        decrement.addEventListener("click" , ()=>{
+            element.Quantity--;
+            quantity.innerText = element.Quantity;
+           if(quantity.innerText > 0){
+            abc()
+           }
+           if(quantity.innerText == 0){
+            abc()
+            cont.remove();
+            cartdata.splice(index , 1)
+            localStorage.setItem("cart" , JSON.stringify(cartdata));
+            displayproduct()
+           }
+        })
+
+        remove.addEventListener("click" , () =>{
+            cartdata.splice(index , 1);
+            localStorage.setItem("cart" , JSON.stringify(cartdata));
+            displayproduct();
+            abc()
+        })
+
+        cont.append(image , name , description , price ,increment ,quantity , decrement , remove) 
+        product.append(cont)
+    });
+}
+
+displayproduct();
+abc()
+
+function abc(){
+    let add = 0;
+    jay = cartdata.map((element)=>{
+        return element.price.trim().split("₹").map(Number)
+    })
+
+    jay=jay.map((element)=>{
+        return element[1]
+    })
+
+    for(let i=0 ; i<jay.length;i++){
+        add+= jay[i]*cartdata[i]["Quantity"]
+    }
+
+    total.innerText = add
+}
+
+
+</script>
+
+<script src="index.js">
+
+</script>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://media.glassdoor.com/sqll/1375928/myglamm-squareLogo-1612962866480.png" type="image/icon type">
+</head>
+
+<body>
+
+    
+    <div id="cartimg">
+        <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+    </div>
+
+    <div id="response">
+
+        <div>
+            <h1>Please Add your feedback</h1>
+            <input type="text" placeholder="How was your User Experience" id="feedback">
+            <button onclick="feedback()">Submit</button>
+        </div>
+
+        
+        <div>
+
+            <h1>Report the problem</h1>
+            <input type="text" placeholder="What problem did you face?">
+            <button onclick="report()">Submit</button>
+        
+      
+    </div>
+
+</body>
+
+
+<script>
+
+function feedback(){
+    let feedback = document.getElementById("feedback").value;
+    alert("Thank you so much for your feedback")
+    localStorage.setItem("feed-back" , feedback)
+    window.location.href="/index.html"
+}
+   
+function report(){
+    let feedback = document.getElementById("feedback").value;
+    alert("Thank you for Alerting me to the offensive response you received at my convenience website. We will cater out your problem As soon As Possible")
+    localStorage.setItem("feed-back" , feedback)
+    window.location.href="/index.html"
+}
+
+
+</script>
+
+</html>

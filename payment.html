@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://media.glassdoor.com/sqll/1375928/myglamm-squareLogo-1612962866480.png" type="image/icon type">
+</head>
+<body>
+    
+
+
+    <div id="cartimg">
+        <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+    </div>
+
+    <h1 id="head" style="font-size: 40px;">Payment</h1>
+
+    <div id="pay">
+        <div>
+            <h1 class="payd">Name</h1>   
+                <input type="text" >
+        </div>
+    
+        <div>
+            <h1 class="payd">Address</h1>
+            <input type="text" >
+        </div>
+    
+        <div>
+            <h1 class="payd">Pincode</h1>      
+             <input type="text" >
+        </div>
+    
+        <div>
+            <h1 class="payd">district</h1>    
+               <input type="text" >
+        </div>
+    
+        <div>
+            <h1 class="payd">State</h1>   
+                <input type="text" >
+        </div>
+
+        <div>
+            <select id="filter" class="payi">
+                <option value="">Select Payment mode</option>
+                <option value="">Cash on Delivery</option>
+                <option value="cafe">Net banking</option>
+                <option value="ethnic">Debit Card</option>
+                <option value="fast_food">Credit Card</option>
+            </select>
+        </div>
+
+       
+
+    </div>
+
+    <button id="place" onclick="placed()">Place order</button>
+
+
+</body>
+
+<script>
+
+
+
+function placed(){
+    alert("Order placed")
+    window.location.href = "/report.html"
+} 
+
+</script>
+
+</html>

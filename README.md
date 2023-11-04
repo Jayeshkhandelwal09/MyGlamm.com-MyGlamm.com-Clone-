@@ -64,14 +64,147 @@ To run this project, follow these steps:
 
 3. You can now interact with the MyGlamm clone, explore products, add items to your cart, and complete the checkout process.
 
-Deployment
 The project is deployed and can be accessed online. Visit the following link to explore the MyGlamm clone:
 
 [Live Demo](https://incomparable-souffle-e17553.netlify.app/)
 
 ## Screenshots
 
-(Optional: You can add screenshots of different pages or functionalities if you'd like to showcase the project visually.)
+## Landing Page (Home Page)
+
+The main entry point of the application.
+
+### Screenshot
+
+![Landing Page]([Image-URL-for-Landing-Page](https://drive.google.com/file/d/1Gs_VeDW7TWMvuVcZdJMQaXDVb2x6lys8/view?usp=drive_link))
+
+### How to Access
+
+You can access the Landing Page by visiting the following link:
+
+[Go to Landing Page](landing-page-link)
+
+---
+
+## Signup Page
+
+Register a new account.
+
+### Screenshot
+
+![Signup Page](Image-URL-for-Signup-Page)
+
+### Description
+
+(Additional description of the Signup Page if needed)
+
+### How to Access
+
+You can access the Signup Page by visiting the following link:
+
+[Go to Signup Page](signup-page-link)
+
+---
+
+## Login Page
+
+Log in to your existing account.
+
+### Screenshot
+
+![Login Page](Image-URL-for-Login-Page)
+
+### Description
+
+(Additional description of the Login Page if needed)
+
+### How to Access
+
+You can access the Login Page by visiting the following link:
+
+[Go to Login Page](login-page-link)
+
+---
+
+## Product Page
+
+Explore and select products.
+
+### Screenshot
+
+![Product Page](Image-URL-for-Product-Page)
+
+### Description
+
+(Additional description of the Product Page if needed)
+
+### How to Access
+
+You can access the Product Page by visiting the following link:
+
+[Go to Product Page](product-page-link)
+
+---
+
+## Single Product Page
+
+View detailed information about a single product.
+
+### Screenshot
+
+![Single Product Page](Image-URL-for-Single-Product-Page)
+
+### Description
+
+(Additional description of the Single Product Page if needed)
+
+### How to Access
+
+You can access the Single Product Page by visiting the following link:
+
+[Go to Single Product Page](single-product-page-link)
+
+---
+
+## Cart Page
+
+Manage the items in your shopping cart.
+
+### Screenshot
+
+![Cart Page](Image-URL-for-Cart-Page)
+
+### Description
+
+(Additional description of the Cart Page if needed)
+
+### How to Access
+
+You can access the Cart Page by visiting the following link:
+
+[Go to Cart Page](cart-page-link)
+
+---
+
+## Payment Page
+
+Complete the checkout process by providing payment information.
+
+### Screenshot
+
+![Payment Page](Image-URL-for-Payment-Page)
+
+### Description
+
+(Additional description of the Payment Page if needed)
+
+### How to Access
+
+You can access the Payment Page by visiting the following link:
+
+[Go to Payment Page](payment-page-link)
+
+
 
 ## Technologies Used
 

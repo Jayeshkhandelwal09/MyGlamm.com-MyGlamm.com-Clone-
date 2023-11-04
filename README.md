@@ -74,14 +74,7 @@ The project is deployed and can be accessed online. Visit the following link to 
 
 ### Screenshot
 
-![Image Alt Text]([Image URL](https://drive.google.com/file/d/1Gs_VeDW7TWMvuVcZdJMQaXDVb2x6lys8/view?usp=drive_link))
-
-
-### How to Access
-
-You can access the Landing Page by visiting the following link:
-
-[Go to Landing Page](landing-page-link)
+![Landing Page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/d05518bf-1467-4827-b918-0b66ecfb05ba)
 
 ---
 
@@ -89,13 +82,7 @@ You can access the Landing Page by visiting the following link:
 
 ### Screenshot
 
-![Signup Page](Image-URL-for-Signup-Page)
-
-### How to Access
-
-You can access the Signup Page by visiting the following link:
-
-[Go to Signup Page](signup-page-link)
+![Sign Up page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/5072b9ae-98e4-48f1-bc52-a7f1a72d52eb)
 
 ---
 
@@ -103,13 +90,7 @@ You can access the Signup Page by visiting the following link:
 
 ### Screenshot
 
-![Login Page](Image-URL-for-Login-Page)
-
-### How to Access
-
-You can access the Login Page by visiting the following link:
-
-[Go to Login Page](login-page-link)
+![Sign in page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/b528e4bf-7009-496d-8868-bdd196bdb00a)
 
 ---
 
@@ -117,13 +98,11 @@ You can access the Login Page by visiting the following link:
 
 ### Screenshot
 
-![Product Page](Image-URL-for-Product-Page)
+![Drop down and navigation to makeup](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/40491d09-e18e-4314-ac4f-c6633c2e205a)
 
-### How to Access
+![makeup page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/4dd60196-2ed7-472d-8640-16a43c2315a3)
 
-You can access the Product Page by visiting the following link:
-
-[Go to Product Page](product-page-link)
+![m](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/7383e305-94c9-4a07-9bfc-026f533e0faa)
 
 ---
 
@@ -131,13 +110,7 @@ You can access the Product Page by visiting the following link:
 
 ### Screenshot
 
-![Single Product Page](Image-URL-for-Single-Product-Page)
-
-### How to Access
-
-You can access the Single Product Page by visiting the following link:
-
-[Go to Single Product Page](single-product-page-link)
+![single product page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/44ec624b-ac45-4f05-b3c5-e18d5dd07295)
 
 ---
 
@@ -145,13 +118,9 @@ You can access the Single Product Page by visiting the following link:
 
 ### Screenshot
 
-![Cart Page](Image-URL-for-Cart-Page)
+![cart page](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/818a16a0-45aa-40df-af96-a0f343eb5ec1)
 
-### How to Access
-
-You can access the Cart Page by visiting the following link:
-
-[Go to Cart Page](cart-page-link)
+![c](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/1ec6cabf-2415-4c19-95a0-e57e5ff0faf8)
 
 ---
 
@@ -159,13 +128,10 @@ You can access the Cart Page by visiting the following link:
 
 ### Screenshot
 
-![Payment Page](Image-URL-for-Payment-Page)
+![p](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/eee59dbd-01bd-4150-90b6-f975b3726b37)
 
-### How to Access
+![p2](https://github.com/Jayeshkhandelwal09/MyGlamm.com-MyGlamm.com-Clone-/assets/112822012/3a6e2ed6-61e9-4cb6-9916-38acad6a7141)
 
-You can access the Payment Page by visiting the following link:
-
-[Go to Payment Page](payment-page-link)
 
 
 
